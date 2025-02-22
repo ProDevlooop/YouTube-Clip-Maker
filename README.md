@@ -1,30 +1,9 @@
-# React + TypeScript + Vite
+# YouTube Clip Maker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+A streamlined interface for transforming long YouTube videos into bite-sized, social media-ready clips with AI-powered features and intuitive editing controls.
+Clean URL input field with validation and preview thumbnail
+Toggle switches for AI features (auto-summarize, reframe, extract)
+Customization panel with number selector for clip quantity and text input for content targeting
+Modern gradient action button with hover effects
+Dark mode interface with subtle card-based components and clear typography
+Style Tip: Use a clean, minimal dark theme with accent gradients (green/blue) to maintain focus on video content and controls.
